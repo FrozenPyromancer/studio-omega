@@ -8,9 +8,9 @@ $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: $color-main-red !default;
-$header-bg-color: $color-main-red !default;
-$header-bg-color-secondary: darken($color-main-red, 10%) !default;
+$header-heading-color: #fff !default;
+$header-bg-color: #fff !default;
+$header-bg-color-secondary: darken(#fff, 10%) !default;
 
 // Text
 $section-headings-color: $color-main-red !default;
