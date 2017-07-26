@@ -1,21 +1,21 @@
-$color-main-red: #b21917 !default;
-$color-main-orange: #c4870e !default;
-$color-main-blue: #121c66 !default;
-$color-main-green: #0b823b !default;
+$color-main-red: #b21917;
+$color-main-orange: #c4870e;
+$color-main-blue: #121c66;
+$color-main-green: #0b823b;
 
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #155799 !default;
+$header-heading-color: $color-main-red !default;
+$header-bg-color: $color-main-red !default;
+$header-bg-color-secondary: darken($color-main-red, 10%) !default;
 
 // Text
-$section-headings-color: #159957 !default;
+$section-headings-color: $color-main-red !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
+$body-link-color: $color-main-red !default;
 $blockquote-text-color: #819198 !default;
 
 // Code
