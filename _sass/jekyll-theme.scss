@@ -33,6 +33,58 @@ body {
   color: $body-text-color;
 }
 
+.red {
+  a, h1, h2, h3, h4, h5, h6 { 
+    color: $color-main-red !important;
+  }
+  a:hover, a:active, a:focus {
+    color: darken( $color-main-red, 10% ) !important;
+  }
+  .page-header {
+    background-color: $color-main-red;
+    background-image: linear-gradient(120deg, darken( $color-main-red, 10% ), $color-main-red);
+  }
+}
+
+.orange {
+  a, h1, h2, h3, h4, h5, h6 { 
+    color: $color-main-orange !important;
+  }
+  a:hover, a:active, a:focus {
+    color: darken( $color-main-orange, 10% ) !important;
+  }
+  .page-header {
+    background-color: $color-main-orange;
+    background-image: linear-gradient(120deg, darken( $color-main-orange, 10% ), $color-main-orange);
+  }
+}
+
+.green {
+  a, h1, h2, h3, h4, h5, h6 { 
+    color: $color-main-green !important;
+  }
+  a:hover, a:active, a:focus {
+    color: darken( $color-main-green, 10% ) !important;
+  }
+  .page-header {
+    background-color: $color-main-green;
+    background-image: linear-gradient(120deg, darken( $color-main-green, 10% ), $color-main-green);
+  }
+}
+
+.blue {
+  a, h1, h2, h3, h4, h5, h6 { 
+    color: $color-main-blue !important;
+  }
+  a:hover, a:active, a:focus {
+    color: darken( $color-main-blue, 10% ) !important;
+  }
+  .page-header {
+    background-color: $color-main-blue;
+    background-image: linear-gradient(120deg, darken( $color-main-blue, 10% ), $color-main-blue);
+  }
+}
+
 a {
   color: $body-link-color;
   text-decoration: none;
