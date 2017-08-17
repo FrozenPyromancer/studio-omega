@@ -1,1 +1,1 @@
-New Blog
+Hi, this is my first Jekyll-Blog
