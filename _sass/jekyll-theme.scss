@@ -44,6 +44,9 @@ body {
     background-color: $color-main-red;
     background-image: linear-gradient(120deg, darken( $color-main-red, 10% ), $color-main-red);
   }
+  .cls-2 {
+    fill: $color-main-red !important;
+  }
 }
 
 .orange {
@@ -56,6 +59,9 @@ body {
   .page-header {
     background-color: $color-main-orange;
     background-image: linear-gradient(120deg, darken( $color-main-orange, 10% ), $color-main-orange);
+  }
+  .cls-2 {
+    fill: $color-main-orange !important;
   }
 }
 
@@ -70,6 +76,9 @@ body {
     background-color: $color-main-green;
     background-image: linear-gradient(120deg, darken( $color-main-green, 10% ), $color-main-green);
   }
+  .cls-2 {
+    fill: $color-main-green !important;
+  }
 }
 
 .blue {
@@ -82,6 +91,9 @@ body {
   .page-header {
     background-color: $color-main-blue;
     background-image: linear-gradient(120deg, darken( $color-main-blue, 10% ), $color-main-blue);
+  }
+  .cls-2 {
+    fill: $color-main-blue !important;
   }
 }
 
