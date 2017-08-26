@@ -4,7 +4,7 @@ title: Hallo Blog
 Beschreibung: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illi enim inter se dissentiunt. Tum Torquatus: Prorsus, inquit, assentior; Quis enim redargueret? Quae contraria sunt his, malane? Quippe: habes enim a rhetoribus;"
 ---
 
-<section class="content">
+<section class="content"> 
   <h1>Hallo Welt</h1>
   <p>Willkomen auf meinem neuen Blog über Videospiele, Webdesign und viele weitere interessante Bereiche rund ums Thema Entwicklung und Design.</p>
   <br/>
