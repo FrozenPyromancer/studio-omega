@@ -15,7 +15,7 @@ Beschreibung: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illi eni
     {% for post in site.posts %}
   
     <li data-date="{{ post.date | date: "%Y.%m.%d" }}" class="{{ post.Kategorie }} element-item" >
-      <a class="co-blog-entry" href="{{ post.url }}">
+      <a class="co-blog-entry" href="/studio-omega{{ post.url }}">
         <h2>{{ post.title }}</h2>
         <span class="date co-blog-entry-date">{{ post.date | date: "%d.%m.%Y" }}</span>
         <span class="co-blog-entry-date"> - </span>
